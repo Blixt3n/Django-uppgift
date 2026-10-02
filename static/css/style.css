@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-size: 1.5rem;
+    background-color: beige;
+    color: grey;
+    flex-direction: column;
+}
+
+h1, p, h2 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #FFFDD0;
+    color: white;
+    font-size: 3.5rem;
+    border:5px solid grey;
+    border-style: dashed;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(174, 174, 174);
+}
+
+a:hover {
+    color: rgba(174, 174, 174, 0.491);
+}
+
+.banner{
+    display:block;
+    width: 100%;
+    max-width: 300px;
+}
